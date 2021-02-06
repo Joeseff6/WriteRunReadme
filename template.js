@@ -1,6 +1,21 @@
+const buildReadmeTemplate = (data) => `
+    ![GitHub](https://img.shields.io/github/license/${data.gitHubUser}/${data.gitHubRepo})
 
-const fs = require(`fs`)
-const inquirer = require(`inquirer`)
+    # ${data.title}
+    
+    ## Project Description
+    
+    ${data.description}
+    
+    ## What to Expect From the Application
+    
+    ### Technologies Used
+    
+    * Node.js
+    
+    # License
+    This project uses the ${data.license} license.
+`
 
 
 
@@ -16,6 +31,4 @@ const inquirer = require(`inquirer`)
 
 
 
-
-
-module.exports
+module.exports = buildReadmeTemplate
