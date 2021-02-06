@@ -1,5 +1,5 @@
 
-![GitHub](https://img.shields.io/github/license/joeseff6/writerunreadme)
+![GitHub](https://img.shields.io/github/license/Joeseff6/WriteRunReadme)
 
 # WriteRunReadme
 
@@ -15,15 +15,15 @@
 
 ## Project Description
 
-This is a command-line application that will produce a README.md file upon exexecution.
+The purpose of this project is to run a command-line application using Node.js to automatically generate a README.md file to use in Github. Once invoked, the application will ask the user a series of questions; the user's responses will be used to fill out the required parts of the README. After all questions have been answered, the README.md will be dynamically generated in the file location that the application is ran in.
 
 ## Installation Instructions
 
-There are no instructions
+To run this application on your system, clone the repo onto your local system and run "node index.js" in the bash terminal.
 
 ## Usage Information 
 
-Educational purposes
+This application is used for education purpose to demonstrate student knowledge.
 
 ### Technologies Used
 
@@ -31,12 +31,17 @@ Javascript, Node.js, npm
 
 ## Contribution Guidelines
 
-None
+Contribution is not allowed for this project.
 
 ## Test Instructions
 
-None
+There are no test parameters for this project
+
+## Questions
+
+If there are any questions, please contact me at josephsoria6@gmail.com. You can also view
+my github profile at https://github.com/Joeseff6.
 
 ## License 
 
-__This project uses the MIT license.__
+_This project is covered under the MIT license._
