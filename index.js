@@ -2,13 +2,15 @@
 const fs = require(`fs`)
 const inquirer = require(`inquirer`)
 // const generateMarkdown = require(`./Develop/utils/generateMarkdown`)
-const template = require(`./template`)
+const buildReadmeTemplate = require(`./template`)
 const questions = require(`./questions`)
 
 async function main() {
     const userData = await inquirer.prompt(questions);
 
     console.log(userData);
+    const readme = buildReadmeTemplate(userData)
+    console.log(readme)
 }
 
 
