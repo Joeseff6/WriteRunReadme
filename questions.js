@@ -1,22 +1,44 @@
-const inquirer = require("inquirer");
+const licenses = [`MIT`,`GPLv2`,`GPLv2`,`Apache`,`Unlicense`,`BSD 3-clause`]
 
-// TODO: Create an array of questions for user input
 const questions = [
-    `What is the title of your project?`,
-    `What is the description for your project?`,
-    `How do you install your project?`,
-    `What is the usage for your project?`,
-    `What are the contribution guidelines for this project?`,
-    `What are the testing instructions for this application?`,
-    `Does your repository use a license?`,
-    `What license does your repository use?`,
+    {
+        type: `input`,
+        name: `title`,
+        message: `What is the title of your project?`,
+    }, 
+    {
+        type: `input`,
+        name: `installation`,
+        message: `What are the installation instructions for your project?`,
+    }, 
+    {
+        type: `input`,
+        name: `usage`,
+        message: `What is the intended usage for your project?`,
+    },
+    {
+        type: `input`,
+        name: `tech`,
+        message: `What technologies where used for this project (e.g. HTML, CSS,
+            Javascript)?`,
+    },
+    {
+        type: `input`,
+        name: `contribution`,
+        message: `What are the contribution guidelines for this project?`,
+    },
+    {
+        type: `input`,
+        name: `test`,
+        message: `What are the testing instructions for this application?`,
+    },
+    {
+        type: `list`,
+        name: `license`,
+        message: `What license does your repository use?`,
+        choices: licenses
+    }
 ];
 
-
-
-
-
-
-
-module.exports
+module.exports = questions
 
