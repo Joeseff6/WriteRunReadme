@@ -6,6 +6,9 @@ const buildReadmeTemplate = require(`./template`)
 const questions = require(`./questions`)
 
 async function main() {
+    console.log(`WARNING: Running this application will overwrite existing README.md
+    files. Please save a copy of your existing README.md file before running this application.`)
+
     const userData = await inquirer.prompt(questions);
 
     const readme = buildReadmeTemplate(userData)
