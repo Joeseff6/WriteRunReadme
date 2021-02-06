@@ -3,6 +3,16 @@ const buildReadmeTemplate = (data) => `
 
 # ${data.title}
 
+## Table of Contents
+
+1. [Project Description](#project-description)
+2. [Installation Instructions](#installation-instructions)
+3. [Usage Information](#usage-information)
+4. [Technologies Used](#technologies-used)
+5. [Contribution Guidelines](#contribution-guidelines)
+6. [Test Instructions](#test-instructions)
+7. [License](#license)
+
 ## Project Description
 
 ${data.description}
@@ -11,7 +21,7 @@ ${data.description}
 
 ${data.installation}
 
-## Usage Information
+## Usage Information 
 
 ${data.usage}
 
@@ -27,8 +37,9 @@ ${data.contribution}
 
 ${data.test}
 
-# License
-This project uses the ${data.license} license.
+## License 
+
+__This project uses the ${data.license} license.__
 `
 
 
