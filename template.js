@@ -28,7 +28,7 @@ ${data.contribution}
 ${data.test}
 
 # License
-This project uses the ${data.license}.
+This project uses the ${data.license} license.
 `
 
 
