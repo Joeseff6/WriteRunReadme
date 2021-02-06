@@ -37,10 +37,14 @@ ${data.contribution}
 
 ${data.test}
 
+## Questions
+
+If there are any questions, please contact me at ${user.email}. You can also view
+my github profile at https://github.com/${user.gitHubUser}.
+
 ## License 
 
 _This project is covered under the ${data.license} license._
 `
-
 
 module.exports = buildReadmeTemplate
