@@ -8,9 +8,11 @@ const questions = require(`./questions`)
 async function main() {
     const userData = await inquirer.prompt(questions);
 
-    console.log(userData);
     const readme = buildReadmeTemplate(userData)
-    console.log(readme)
+
+    fs.writeFileSync(`./README.md`, readme)
+
+    console.log(`File successfully written!`)
 }
 
 
