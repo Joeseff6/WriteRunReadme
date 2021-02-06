@@ -1,19 +1,29 @@
 
 ![GitHub](https://img.shields.io/github/license/joeseff6/writerunreadme)
 
-# writerunreadme
+# WriteRunReadme
+
+## Table of Contents
+
+1. [Project Description](#project-description)
+2. [Installation Instructions](#installation-instructions)
+3. [Usage Information](#usage-information)
+4. [Technologies Used](#technologies-used)
+5. [Contribution Guidelines](#contribution-guidelines)
+6. [Test Instructions](#test-instructions)
+7. [License](#license)
 
 ## Project Description
 
-This is a command-line application that runs using node and packages installed by npm.
+This is a command-line application that will produce a README.md file upon exexecution.
 
 ## Installation Instructions
 
-I'm not sure
+There are no instructions
 
-## Usage Information
+## Usage Information 
 
-This project is used for educational purposes only
+Educational purposes
 
 ### Technologies Used
 
@@ -27,5 +37,6 @@ None
 
 None
 
-# License
-This project uses the MIT.
+## License 
+
+__This project uses the MIT license.__
