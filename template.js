@@ -11,7 +11,8 @@ const buildReadmeTemplate = (data) => `
 4. [Technologies Used](#technologies-used)
 5. [Contribution Guidelines](#contribution-guidelines)
 6. [Test Instructions](#test-instructions)
-7. [License](#license)
+7. [Questions](#questions)
+8. [License](#license)
 
 ## Project Description
 
