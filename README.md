@@ -1,17 +1,31 @@
-![GitHub](https://img.shields.io/github/license/Joeseff6/WriteRunReadme)
-# WriteRunReadme
-This is a Readme generator that uses Node.js to run a command-line application.
+
+![GitHub](https://img.shields.io/github/license/joeseff6/writerunreadme)
+
+# writerunreadme
+
 ## Project Description
-The purpose of this project is to run a command-line application using Node.js to automatically generate a README.md file to use in Github. Once invoked, the application will ask the user a series of questions; the user's responses will be used to fill out the required parts of the README. After all questions have been answered, the README.md will be dynamically generated for the user to keep at leisure.
-## What to Expect From the Application
+
+This is a command-line application that runs using node and packages installed by npm.
+
+## Installation Instructions
+
+I'm not sure
+
+## Usage Information
+
+This project is used for educational purposes only
 
 ### Technologies Used
 
-* Node.js
-## Tasks to Complete the Job :white_check_mark:
+Javascript, Node.js, npm
 
-- [] 
-## Future Releases
+## Contribution Guidelines
 
-* 
-## Screenshots :camera:
+None
+
+## Test Instructions
+
+None
+
+# License
+This project uses the MIT.
