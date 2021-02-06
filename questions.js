@@ -10,6 +10,11 @@ const questions = [
         type: `input`,
         name: `gitHubRepo`,
         message: `What is your Github repository that this Readme will go in?`,
+    },
+    {
+        type: `input`,
+        name: `email`,
+        message: `What is your preferrable email address to contact?`,
     }, 
     {
         type: `input`,
