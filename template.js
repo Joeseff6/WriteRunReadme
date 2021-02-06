@@ -39,7 +39,7 @@ ${data.test}
 
 ## License 
 
-__This project uses the ${data.license} license.__
+_This project is covered under the ${data.license} license._
 `
 
 
