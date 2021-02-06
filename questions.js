@@ -3,8 +3,23 @@ const licenses = [`MIT`,`GPLv2`,`GPLv2`,`Apache`,`Unlicense`,`BSD 3-clause`]
 const questions = [
     {
         type: `input`,
+        name: `gitHubUser`,
+        message: `What is your Github username?`,
+    }, 
+    {
+        type: `input`,
+        name: `gitHubRepo`,
+        message: `What is your Github repository that this Readme will go in?`,
+    }, 
+    {
+        type: `input`,
         name: `title`,
         message: `What is the title of your project?`,
+    }, 
+    {
+        type: `input`,
+        name: `description`,
+        message: `What is the description of your project?`,
     }, 
     {
         type: `input`,
