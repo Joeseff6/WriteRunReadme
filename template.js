@@ -39,8 +39,8 @@ ${data.test}
 
 ## Questions
 
-If there are any questions, please contact me at ${user.email}. You can also view
-my github profile at https://github.com/${user.gitHubUser}.
+If there are any questions, please contact me at ${data.email}. You can also view
+my github profile at https://github.com/${data.gitHubUser}.
 
 ## License 
 
