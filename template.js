@@ -46,6 +46,6 @@ my github profile at https://github.com/${data.gitHubUser}.
 ## License 
 
 _This project is covered under the ${data.license} license._
-`
+`;
 
-module.exports = buildReadmeTemplate
+module.exports = buildReadmeTemplate;

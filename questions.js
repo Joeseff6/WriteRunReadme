@@ -1,4 +1,4 @@
-const licenses = [`MIT`,`GPLv2`,`GPLv2`,`Apache`,`Unlicense`,`BSD 3-clause`, ]
+const licenses = [`MIT`,`GPLv2`,`GPLv2`,`Apache`,`Unlicense`,`BSD 3-clause`];
 
 const questions = [
     {
@@ -60,5 +60,5 @@ const questions = [
     }
 ];
 
-module.exports = questions
+module.exports = questions;
 
