@@ -3,9 +3,6 @@
 
 # WriteRunReadme
 
-## Link to Application Demonstration
-
-_https://drive.google.com/file/d/1rZAU2wuWH96AO1O3tp7xpgLQ5B3-030p/view?usp=sharing_
 ## Table of Contents
 
 1. [Project Description](#project-description)
